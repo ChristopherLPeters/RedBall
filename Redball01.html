@@ -1,0 +1,72 @@
+<html>
+
+<head>
+<script type = 'text/javascript' src='http://lrn.icstars.org/redball.js'></script>
+</head>
+<body>
+ <h1> LeBron James Is The Best Player In The Game </h1>
+<img id='redball' src="http://38.media.tumblr.com/tumblr_mbw44mNzHS1rnt56ho1_400.gif" />
+
+<button onclick="moveup()")>Move Up</button>
+<script type='text/javascript'>
+	function moveup(){ redball.top = redball.top - 5
+            }
+       </script>
+
+	
+
+<script type='text/javascript'>
+	function movedown(){ redball.top = redball.top + 5
+            }
+       </script>
+
+	
+<button onclick="movedown()")>Move Down</button>
+
+<button onclick="moveleft()")>Move Left</button>
+<script type='text/javascript'>
+	function moveleft(){ redball.left = redball.left - 5
+            }
+       </script>
+<button onclick="moveright()")>Move Right</button>
+<script type='text/javascript'>
+	function moveright(){ redball.left = redball.left + 5
+            }
+       </script>
+</body>
+
+<head>
+<script type = 'text/javascript'>
+function sayhelloworld(){
+  alert ('hello world from in a function');
+}
+</script>
+</head>
+<body>
+<button onclick="sayhelloworld();">say hi</button>
+
+<button onclick="moveupright()")>Move UpRight</button>
+<script type='text/javascript'>
+	function moveupright(){ redball.top = redball.top - 5; redball.left=redball.left + 5
+            }
+       </script>
+<button onclick="moveupleft()")>Move UpLeft</button>
+<script type='text/javascript'>
+	function moveupleft(){ redball.top = redball.top - 5; redball.left=redball.left - 5
+            }
+       </script>
+<button onclick="movedownleft()")>Move DownLeft</button>
+<script type='text/javascript'>
+	function movedownleft(){ redball.top = redball.top + 5; redball.left=redball.left - 5
+            }
+       </script>
+<button onclick="movedownright()")>Move DownRight</button>
+<script type='text/javascript'>
+	function movedownright(){ redball.top = redball.top + 5; redball.left=redball.left + 5
+            }
+       </script>
+</body>
+
+</html>
+
+
